@@ -30,6 +30,8 @@ Server install
 4. Chuck any custom midi files into `server/data/custom/bardcraft/custom`
 5. Restart the server if it was running.
 
+(recommended to set the server log level to 2 (warning) in the `tes3mp-server-default.cfg` to avoid lots of console command calls in the log)
+
 Player (client) install
 
 - Each player must install the Bardcraft mod assets. Download the release above and install via your preferred method.
