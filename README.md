@@ -1,40 +1,67 @@
-# Bardcraft (TES3MP) — Quick Install (server + players)
+# Bardcraft (TES3MP) — Quick Install
 
-Downloads / credit
+What this is
 
 - Original mod (credit): https://www.nexusmods.com/morrowind/mods/56814?tab=files
-- TES3MP release (port): https://github.com/Skooma-Breath/Bardcraft-Mp/releases
+- Server-side TES3MP port of Bardcraft.
+- How it works:
+-     Basically the server scripts parse the midi files and send lots of playsound console commands to the players...
 
-Server operator steps (what you must do)
+- Want to try Bardcraft online without setting up a server? You can join my public test server.
+- Join via Discord for instructions and updates: https://discord.gg/TSqQTVexe5
 
-1. Download the TES3MP release archive from the GitHub releases link above.
-2. In that release, find the `Bardcraft` folder under the release's data files/midi directory (the folder containing MIDI files).
-3. Copy that `Bardcraft` folder into your TES3MP server data tree:
-   - Paste so it becomes: `server/data/custom/bardcraft/`
-   - Typical subfolders: `server/data/custom/bardcraft/custom/` and `.../preset/`
-4. Copy the script folder into your server scripts:
-   - `server/scripts/custom/bardcraft/` (ensure `init.lua` is present)
-5. Register the server script in `server/scripts/customScripts.lua`:
-   - Add the line: `Bardcraft = require("custom.bardcraft.init")`
-6. Restart the TES3MP server and check logs for “[Bardcraft] Initialized successfully”.
+TODO's:
 
-Notes for players (client installation)
+- npc band members.
+- create a few missing icons and more instruments.
 
-- Every player who joins must install the Bardcraft mod client-side (the original mod assets). Download the release (link above) and install using one of your usual mod-install methods. One manual method is described below.
+Downloads
 
-Install a mod manually
+- TES3MP release (port): https://github.com/Skooma-Breath/BardcraftMP/releases/download/BardcraftMP/BardcraftMP.zip
 
-- OpenMW uses `openmw.cfg` to list data paths and plugins. Edit that file to add the data path and any plugin names for the mod.
-- openmw.cfg locations:
-  - Windows: `Documents\My Games\OpenMW\openmw.cfg`
-  - Linux: `$XDG_CONFIG_HOME/openmw` or `$HOME/.config/openmw`
-  - macOS: `$HOME/Library/Preferences/openmw`
-- In `openmw.cfg`:
-  - Add a `data=` line giving the full folder path where you extracted the mod files.
-- Save `openmw.cfg` and launch OpenMW.
+Server install
 
-Quick troubleshooting
+1. Click the big green "Code" button near the top right of the github page and select "Download ZIP". Extract the contents.
+2. Copy the server folder into your tes3mp install folder.
+3. Add this line to `server/scripts/customScripts.lua`:
+   - `require("custom.bardcraft.init")`
+4. Chuck any custom midi files into `server/data/custom/bardcraft/custom`
+5. Restart the server if it was running.
 
-- No songs loaded on server: confirm `server/data/custom/bardcraft/custom/` (and/or `preset/`) exist and contain MIDI files.
-- Server log issues: search server log for `[Bardcraft]` entries to find initialization messages and errors.
+Player (client) install
 
+- Each player must install the Bardcraft mod assets. Download the release above and install via your preferred method.
+- Manual install summary:
+  - Edit `openmw.cfg` and add a `data=` line pointing to where you extracted the mod files.
+  - for example, if you extracted the mod files to `C:\openmwMods`, add `data=C:\openmwMods\BardcraftMP\Data Files` to `openmw.cfg`.
+  - openmw.cfg locations:
+    - Windows: `Documents\My Games\OpenMW\openmw.cfg`
+    - Linux: `$XDG_CONFIG_HOME/openmw` or `$HOME/.config/openmw`
+    - macOS: `$HOME/Library/Preferences/openmw`
+
+Quick usage
+
+- `/bc` — open song browser
+- `/stop` — stop performing
+- `/play <song> [instrument]` — start performing
+- `/band`, `/bandplay <song>`, `/bandstop` — band commands
+
+You will need to be an admin on the server currently to spawn in some instruments and access the reload midi files button in the /bc menu.
+To make yourself admin find and edit the `staffrank` value in your `server/data/player/playername.json` file to `2`.
+command to spawn in an instrument: `/placeat pid bcw_lute`
+Instruments:
+
+- bcw_lute
+- bcw_bassflute
+- bcw_ocarina
+- bcw_drum
+- bcw_fiddle_bow
+- bca_fiddle_shield
+
+The weapon version of the instruments will automatically be swapped with the armor versions for use with the play animations.
+There is a toggle in the admin /bc menu for not requiring the weapon versions to start playing.
+
+Troubleshooting
+
+- No songs loaded: ensure players installed the client mod properly and server was restarted.
+- Check server logs for `[Bardcraft]` messages to diagnose issues.
