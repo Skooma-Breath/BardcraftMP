@@ -1,0 +1,64 @@
+=== TEXTURES ===
+
+Piano keys texture: https://www.freepik.com/free-photo/close-up-piano-keys_1007634.htm Image by jannoon028 on Freepik
+Ocarina texture: https://commons.wikimedia.org/wiki/File:Ocarina_SopranoF_AltoC.jpg (Public domain)
+
+Muted icon: https://www.flaticon.com/free-icons/mute Created by Pixel perfect - Flaticon
+Unmuted icon: https://www.flaticon.com/free-icons/speaker Created by Pixel perfect - Flaticon
+Delete icon: https://www.flaticon.com/free-icons/trash-can Created by Freepik - Flaticon
+
+
+
+=== SOUNDS ===
+
+Ocarina samples were recorded and kindly provided by urm <3
+
+finalize_draft.wav: writing_pencil.aif by rui_aires -- https://freesound.org/s/365890/ -- License: Creative Commons 0
+
+boo1.wav: CRWDAngr_Booing, Angry_ShaneVincent_GSC24_XY-AKG214-96k.wav by ShangusBurger -- https://freesound.org/s/763807/ -- License: Creative Commons 0
+boo2, boo3.wav: Crowd Boo.wav by deleted_user_2104797 -- https://freesound.org/s/324893/ -- License: Creative Commons 0
+boo4.wav: S Disapproval - .wav by Processaurus -- https://freesound.org/s/440087/ -- License: Attribution 4.0
+clap1.wav: Crowd Clap.wav by GB01 -- https://freesound.org/s/177083/ -- License: Attribution 4.0
+clap2.wav: small crowd cheering and clapping 2.wav by Tomlija -- https://freesound.org/s/99633/ -- License: Attribution 3.0
+clap3.wav: MORECLAPS.aif by nickrave -- https://freesound.org/s/245639/ -- License: Creative Commons 0
+clap4.wav: Applause Small Crowd 2 by qubodup -- https://freesound.org/s/169943/ -- License: Attribution 4.0
+clap-polite.wav: Light, slow uncomfortable clapping by TurboFool -- https://freesound.org/s/561020/ -- License: Creative Commons 0
+hurl.wav: Hurling.mp3 by SnowFightStudios -- https://freesound.org/s/643654/ -- License: Creative Commons 0
+cough1.wav: Cough1_Mono.wav by johncanyon -- https://freesound.org/s/645991/ -- License: Creative Commons 0
+cough2.wav: Cough by Duisterwho -- https://freesound.org/s/638581/ -- License: Creative Commons 0
+coin-one.wav: Coin Dropped by kermite607 -- https://freesound.org/s/368203/ -- License: Creative Commons 0
+coin-few.wav: coins-falling-022.wav by Gerent -- https://freesound.org/s/558991/ -- License: Creative Commons 0
+coin-many.wav: Coin Drop by Universfield -- https://freesound.org/s/750240/ -- License: Attribution 4.0
+
+equip.wav: Sound Effect by freesound_community from Pixabay https://pixabay.com/sound-effects/item-equip-6904/ 
+gohome.wav: Rapid Footsteps Upon Gravel by ExplosiveTamale -- https://freesound.org/s/448357/ -- License: Creative Commons 0
+
+musbox-start.wav: 
+    Wind_up_musicbox.wav by jobro -- https://freesound.org/s/172208/ -- License: Attribution 3.0
+    Winding Up a Music box by BM007 -- https://freesound.org/s/540958/ -- License: Attribution NonCommercial 3.0
+musbox-loop.wav:
+    Ratchet (ratchet2.wav) by sgossner -- https://freesound.org/s/375709/ -- License: Creative Commons 0
+
+
+
+=== SONGS ===
+
+(Any not listed are my original compositions)
+
+bwv997.mid: Transcribed from https://musescore.com/user/17040701/scores/5435954 (CC-BY-NC-SA)
+bwv997-adv.mid: Transcribed from https://musescore.com/user/4459451/scores/5034251 (CC-BY-NC-SA)
+beg3.mid: Transcribed from https://musescore.com/jakerussell/scores/1724406 (Public domain)
+int1.mid: Modified from https://musescore.com/user/34711090/scores/22831834 (CC-BY)
+int3.mid: Based on Turkish folk song "Ah Bir Ataş Ver", https://musescore.com/user/1185841/scores/5707125 (CC-BY)
+cadence1.mid: Based on "Jig 2" drum cadence by Oak Mountain High School drumline
+
+The following are adaptations of urm's compositions from the mod "Songs of the Ashen Winds":
+wondrouslove.mid
+
+The following are my own MIDI arrangements based on Daggerfall OST songs. All credit for the original compositions belongs to Bethesda and Eric Heberling.
+theroadbehindus.mid: "Folk 2"
+int4.mid: "Snow is Falling"
+
+The following are my own MIDI arrangements based on Elder Scrolls Online bard/music box songs. All credit for the original compositions belongs to ZeniMax and their talented composers; they have been included out of love and homage to the worldbuilding of ESO, and I will readily oblige any request to remove them.
+cliffstrider.mid: The Cliff-Strider Song
+reddiamond.mid: Chim-el Adabal / Diamond Melody

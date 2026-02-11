@@ -1,0 +1,166 @@
+---
+5 1
+5 2.5 While
+5 3 cliff\-
+5 3.5 ra-
+5 4 cers
+6 1 spread
+6 1.375 their
+6 1.75 wings,
+6 2.75 so
+6 3.25 broad,
+---
+7 1
+7 2 And
+7 2.5 less-
+7 2.875 er
+7 3.25 birds
+7 4.5 bend
+8 1 their
+8 1.5 knees,
+8 2.5 so
+8 3.25 awed,
+---
+9 1
+9 2.25 You
+9 3.125 snarl,
+9 3.5 and
+9 3.875 hiss,
+9 4.75 and
+10 1.75 spit,
+10 2.125 and
+10 2.75 screech!
+---
+11 1
+11 2.375 I
+11 2.875 hear
+11 3.375 the
+11 3.75 guars
+12 1 grun-
+12 1.5 ting
+12 2 each
+12 2.625 to
+12 3.125 each,
+---
+13 1
+13 2.5 "What
+13 2.875 a
+13 3.25 ter-
+13 3.75 ror!
+14 1 What
+14 1.625 sav-
+14 2 age
+14 2.625 speech!"
+---
+15 1
+15 2.5 Oh
+15 3.25 to
+15 3.625 be
+15 4.5 like
+16 1.75 you.
+---
+17 1
+17 1.5 Your
+17 2 tem-
+17 2.5 per
+17 3 flares
+17 4 at
+17 4.5 the
+18 1 small-
+18 1.5 est
+18 2 of-
+18 2.5 fense,
+---
+19 1
+19 1.5 You
+19 2 snatch
+19 2.5 our
+19 3 guars
+19 4.5 and
+20 1 man-
+20 1.5 gle
+20 2 our
+20 2.5 fence!
+---
+21 1
+21 1.5 You
+21 2 nest
+21 2.5 in
+21 3 our
+21 3.5 lofts,
+21 4.5 spray
+22 1 dung
+22 1.5 on
+22 2 the
+22 2.5 wall,
+---
+23 1
+23 1.5 Tear
+23 2 up
+23 2.5 our
+23 3 roofs
+23 4 like
+23 4.5 a
+24 1 mid-
+24 1.667 sum-
+24 2.333 mer
+24 3 squall,
+---
+25 1
+25 2 Frigh-
+25 2.25 ten
+25 2.5 our
+25 3 chil-
+25 3.5 dren
+25 4.5 and
+26 1 make
+26 1.667 the
+26 2.333 babes
+26 3 bawl,
+---
+27 1
+27 2.5 Pro-
+27 3 mise
+27 4 you'll
+28 1 ne-
+28 1.375 ver
+28 1.75 change.
+---
+30 1
+31 1 Cliff\-
+31 2 stri-
+31 2.5 der,
+32 1 stride
+32 3 so
+33 1 high,
+---
+33 4
+33 4.5 On
+34 1 fi-
+34 1.5 er-
+34 2 y
+34 2.5 crags,
+34 4.5 you
+35 1 touch
+35 3 the
+36 1 sky!
+---
+36 4
+37 1 Cliff\-
+37 2 stri-
+37 2.5 der,
+38 1 stride
+38 3 so
+39 1 high,
+---
+39 4
+39 4.5 Screech
+40 1 loud
+40 2 as
+40 2.5 thun-
+40 3.5 der,
+41 2 may
+41 2.5 you
+41 3 ne-
+41 4 ver
+42 1 die!

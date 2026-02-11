@@ -1,0 +1,458 @@
+midiData:
+  # === Starting Songs ===
+  scales.mid:
+    title: Scales
+    description: A basic exercise for practicing ascending and descending scales. You could perform this... if you really wanted to?
+    loopBars:
+      - 0
+      - 16
+    loopCount: 0
+    scale:
+      root: C
+      mode: Major
+    texture: generic
+    difficulty: starter
+    tags:
+      - Plodding
+      - Exercise
+  start-altmer.mid:
+    title: The Twilight Boughs
+    description: TODO
+    difficulty: starter
+  start-argonian.mid:
+    title: Hiss and Rain
+    description: TODO
+    difficulty: starter
+  start-bosmer.mid:
+    title: Oakling's Song
+    description: TODO
+    difficulty: starter
+  start-breton.mid:
+    title: Hearthlight Waltz
+    description: TODO
+    difficulty: starter
+  start-dunmer.mid:
+    title: Little Vivec Nights
+    description: A cheerful ascending waltz typically taught to Dunmer children as a lullaby, but serviceable enough as a tavern jig when played uptempo.
+    loopBars:
+      - 0
+      - 16
+    loopCount: 1
+    scale:
+      root: D
+      mode: Major
+    tempoMod: 0.5
+    texture: vivec
+    difficulty: starter
+    tags:
+      - Dunmer
+      - Cheerful
+      - Relaxed
+      - Lullaby
+  start-imperial.mid:
+    title: Little Legionnaire
+    description: TODO
+    difficulty: starter
+  start-khajiit.mid:
+    title: Moon-Sugar Dreams
+    description: TODO
+    difficulty: starter
+  start-nord.mid:
+    title: Snowfall on the Hearth
+    description: TODO
+    difficulty: starter
+  start-orc.mid:
+    title: Iron Mother's Rumble
+    description: TODO
+    difficulty: starter
+  start-redguard.mid:
+    title: Waves at Dawn
+    description: TODO
+    difficulty: starter
+  # === Beginner Songs ===
+  beg1.mid:
+    title: Guar Driver Song
+    description: A simple, lilting melody said to echo the pace of a guar's stride. While often attributed to caravan drivers, scholars note the tune's true origin is likely as meandering as the creatures themselves.
+    scale:
+      root: F
+      mode: Major
+    loopBars:
+      - 0
+      - 32
+    loopCount: 0
+    texture: westgash
+    difficulty: beginner
+    tags:
+      - Dunmer
+      - Cheerful
+      - Lively
+      - Folk Tune
+  beg2.mid:
+    title: The Odai Trail
+    description: A well-known traveling song throughout western Vvardenfell. A wistful yet pleasant piece for a traveling bard, good for keeping spirits up on a long walk.
+    scale:
+      root: B
+      mode: Minor
+    loopBars:
+      - 0
+      - 30
+    loopCount: 0
+    tempoMod: 0.5
+    texture: balmora2
+    difficulty: beginner
+    tags:
+      - Dunmer
+      - Wistful
+      - Relaxed
+      - Folk Tune
+  beg3.mid:
+    title: Eyes Like Smoke
+    description: A traditional Velothi love lament, said to have been first sung by a pilgrim returning from Red Mountain after losing their beloved to the Blight.
+    scale:
+      root: D
+      mode: Minor
+    loopBars:
+      - 0
+      - 32.66666666666666667
+    loopCount: 0
+    tempoMod: 0.5
+    texture: temple1
+    difficulty: beginner
+    tags:
+      - Dunmer
+      - Mournful
+      - Romantic
+      - Relaxed
+      - Lament
+  theroadbehindus.mid:
+    title: The Road Behind Us
+    description: A simple air, purportedly of Breton origin, much like one you'd hear as the embers die low in a Shornhelm inn. A tune for when the grand tales have been told, the boasts are quieted, and all that's left is the warmth of the hearth and the silent thoughts of a road well-traveled. 
+    scale:
+      root: D
+      mode: Minor
+    loopBars:
+      - 0.166666666666666
+      - 8.166666666666666
+    loopCount: 1
+    tempoMod: 0.5
+    texture: wayrest
+    difficulty: beginner
+    tags:
+      - Breton
+      - Reflective
+      - Plodding
+      - Folk Tune
+  bwv997.mid:
+    title: The Guar and the Scrib
+    description: A relaxed lute accompaniment supports a lively ocarina melody; perfect for confidence-building for aspiring lutists looking to move on from basic scales.
+    scale:
+      root: A
+      mode: Minor
+    loopBars:
+      - 0 
+      - 20
+    loopCount: 0
+    texture: generic
+    difficulty: beginner
+    tags:
+      - Relaxed
+      - Exercise
+  threedrips.mid:
+    title: Three Drips of Sujamma
+    description: Much like the first three drops of sujamma on the tongue, this Dunmer drinking song's syrupy lute arpeggio is something of an acquired taste. Not that the audiences it's typically played for are in any state to mind.
+    scale:
+      root: Bb
+      mode: Major
+    loopBars:
+      - 8
+      - 32
+    loopCount: 0
+    texture: tavern
+    difficulty: beginner
+    tags:
+      - Dunmer
+      - Cheerful
+      - Bawdy
+      - Relaxed
+      - Drinking Song
+  # === Intermediate Songs ===
+  int1.mid:
+    title: Evening in Dwynnen
+    description: This dance, born in the courts of High Rock, found favor with Imperial statesmen and soon spread throughout the provinces. A testament to Wayrest's enduring cultural influence, now even Dunmer tap their feet to its rhythm.
+    scale:
+      root: E
+      mode: Minor
+    loopBars:
+      - 0.333333333333333333
+      - 56.33333333333333333
+    loopCount: 0
+    tempoMod: 0.5
+    texture: wayrest
+    difficulty: intermediate
+    tags:
+      - Breton
+      - Courtly
+      - Lively
+      - Dance
+  int2.mid:
+    title: Five-Legged Festus
+    description: A whimsical Dunmer number telling the curious tale of a silt strider with a missing leg. Its peculiar five-beat meter, said to mimic Festus' lurching gait, has made it something of a cult favorite in Vvardenfell's less discerning taverns.
+    scale:
+      root: D
+      mode: Yffreic
+    loopBars:
+      - 0
+      - 28
+    loopCount: 0
+    texture: westgash
+    difficulty: intermediate
+    tags:
+      - Dunmer
+      - Cheerful
+      - Comedic
+      - Lively
+      - Folk Tune
+  int3.mid:
+    title: Requiem for Lost Kin
+    description: The origins of this haunting melody are lost to time, but it resonates with the deep sorrow and unyielding spirit of the Dunmer people. A song for those who stand firm even as the shadows lengthen and the path ahead fades.
+    scale:
+      root: A
+      mode: Minor
+    loopBars:
+      - 0
+      - 63
+    loopCount: 0
+    tempoMod: 0.5
+    texture: temple1
+    difficulty: intermediate
+    tags:
+      - Dunmer
+      - Mournful
+      - Heroic
+      - Tragic
+      - Relaxed
+      - Lament
+  int4.mid:
+    title: Snow over Northmoor
+    description: A festive Breton jig from the Northmoor region, its brisk melody is a traditional herald of the first winter snows, often heard warming the hearths of High Rock taverns.
+    scale:
+      root: F
+      mode: Minor
+    loopBars:
+      - 0.166666666666666
+      - 49.166666666666666
+    loopCount: 0
+    tempoMod: 0.5
+    texture: wayrest
+    difficulty: intermediate
+    partOverrides:
+      Lute: Lute (Easy)
+      Lute 2: Lute (Adv.)
+    tags:
+      - Breton
+      - Cheerful
+      - Festive
+      - Lively
+      - Dance
+  beneathtwomoons.mid:
+    title: Beneath Two Moons
+    description: Hlaalu and Redoran scholars alike dispute the popular assertion that this piece recounts the tale of two lovers separated by inter-House strife. Hlaalu argue the melody is too earnest to be about politics. Redoran claim it is too passionate to concern a Hlaalu.
+    scale:
+      root: Eb
+      mode: Major
+    loopBars:
+      - 0
+      - 64
+    loopCount: 0
+    tempoMod: 0.25
+    texture: temple1
+    difficulty: intermediate
+    tags:
+      - Dunmer
+      - Epic
+      - Tragic
+      - Romantic
+      - Lively
+      - Ballad
+      - Redoran
+      - Hlaalu
+  greensleeves.mid:
+    title: Greensleeves
+    description: A traditional folk melody of uncertain origin, a staple in taverns throughout the provinces of the Empire.
+    loopBars:
+      - 0.08333333333333333333
+      - 8.08333333333333333333
+    loopCount: 1
+    scale:
+      root: C
+      mode: Minor
+    texture: tavern
+    difficulty: intermediate
+    tags:
+      - Imperial
+      - Cheerful
+      - Festive
+      - Lively
+      - Folk Tune
+  imp1.mid: 
+    title: Courting the Alewife
+    description: Not quite a waltz nor a jig, this spirited Cyrodiilic dance could equally satisfy a Nibenese court and a tavern full of drunken Dunmer. A favorite of the Imperial Conservatory, which uses it to train intermediate lutists and viellists in counterpoint.
+    loopBars:
+      - 0
+      - 24
+    loopCount: 0
+    scale:
+      root: E
+      mode: Major
+    tempoMod: 0.5
+    texture: tavern
+    difficulty: intermediate
+    tags:
+      - Imperial
+      - Cheerful
+      - Romantic
+      - Courtly
+      - Relaxed
+      - Dance
+  cliffstrider.mid:
+    title: The Cliff-Strider Song
+    description: With the cliff-racers' terrestrial kin driven to extinction in the wake of the Blight, this once-humorous Second Era tune has taken on a markedly more wistful, almost reverent tone in modern times.
+    loopBars:
+      - 16
+      - 43
+    loopCount: 0
+    scale:
+      root: D
+      mode: Major
+    tempoMod: 0.5
+    texture: westgash
+    difficulty: intermediate
+    tags:
+      - Dunmer
+      - Wistful
+      - Comedic
+      - Lively
+      - Folk Tune
+  reddiamond.mid:
+    title: Chim-el Adabal
+    description: |
+      An Imperial ballad about a powerful artifact called the Amulet of Kings, bearing the red diamond Chim-el Adabal.
+      "Red Diamond! Red Diamond! The heart and soul of Men. Red Diamond! Red Diamond! Protect us 'til the end!"
+    loopCount: 0
+    scale:
+      root: D
+      mode: Minor
+    tempoMod: 0.5
+    texture: imperial
+    difficulty: intermediate
+    partOverrides:
+      Lute: Lute (Solo)
+      Lute 2: Lute (Accompaniment)
+    tags:
+      - Imperial
+      - Epic
+      - Relaxed
+      - Ballad
+  # === Advanced Songs ===
+  bwv997-adv.mid:
+    title: The Guar - Adv.
+    description: The lute steals the show in this advanced solo arrangement of The Guar and the Scrib, carrying both melody and chords at a brisker pace. A nostalgic romp for skilled lutists looking to return to their roots.
+    scale:
+      root: A
+      mode: Minor
+    loopBars:
+      - 0
+      - 16
+    loopCount: 1
+    texture: generic
+    difficulty: advanced
+    tags:
+      - Dunmer
+      - Cheerful
+      - Rapid
+      - Exercise
+  # === Unique Songs ===
+  moonsong.mid:
+    title: Ja-Kha'jay's Moonsong
+    description: A beloved Khajiiti folk tune, said to echo the laughter of Jone and Jode as they chase across the night sky. Commonly heard during celebrations such as the New Life Festival.
+    loopBars:
+      - 0
+      - 4
+    scale:
+      root: D
+      mode: Rajhinic
+    texture: elsweyr
+    difficulty: intermediate
+    tags:
+      - Khajiit
+      - Cheerful
+      - Festive
+      - Lively
+      - Folk Tune
+  ahemmusa.mid:
+    title: Ahemmusan Lament
+    description: A powerful elegy of the Ahemmusa tribe of Azura's Coast, often played in remembrance of lost loved ones.
+    loopBars:
+      - 0
+      - 32
+    loopCount: 0
+    scale:
+      root: F
+      mode: Velothi
+    tempoMod: 0.5
+    texture: ahemmusa
+    difficulty: intermediate
+    tags:
+      - Ashlander
+      - Mournful
+      - Tragic
+      - Lively
+      - Lament
+  molagberan.mid:
+    title: The Battle of Molag Beran
+    description: TODO
+  rollbretonnia.mid:
+    title: Roll, Bretonnia, Roll
+    description: TODO
+  wondrouslove.mid:
+    title: Wondrous Love
+    description: A solemn Ashlander hymn from the Urshilaku, honoring the sacred bonds of love and truth shared through all trials, from first breath to final whisper.
+    tempoMod: 0.5
+    texture: ahemmusa
+    difficulty: beginner
+    tags:
+      - Ashlander
+      - Solemn
+      - Romantic
+      - Relaxed
+      - Hymn
+  redmountain.mid:
+    title: Red Mountain
+    description: TODO
+  shrinktodust.mid:
+    title: May I Shrink to Dust
+    description: TODO
+  brooding.mid:
+    title: Brooding Beneath Red Mountain
+    description: TODO
+  jornibret.mid:
+    title: Jornibret's Last Dance
+    description: TODO
+  # === Drum Cadences ===
+  cadence1.mid:
+    title: Ra'jira's Cadence
+    description: Ra'jira claims this fast-paced drum cadence is her own invention. But she claims many things.
+    loopBars:
+      - 0
+      - 20
+    loopCount: 1
+    texture: elsweyr
+    difficulty: intermediate
+    partOverrides:
+      Drum: Drum (Middle)
+      Drum 2: Drum (Low)
+      Drum 3: Drum (High)
+    tags:
+      - Khajiit
+      - Rapid
+      - Drum Cadence
