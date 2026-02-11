@@ -5,7 +5,7 @@ What this is
 - Original mod (credit): https://www.nexusmods.com/morrowind/mods/56814?tab=files
 - Server-side TES3MP port of Bardcraft.
 - How it works:
--     Basically the server scripts parse the midi files and send lots of playsound console commands to the players...
+     Basically the server scripts parse the midi files and send lots of playsound console commands to the players...
 
 - Want to try Bardcraft online without setting up a server? You can join my public test server.
 - Join via Discord for instructions and updates: https://discord.gg/TSqQTVexe5
