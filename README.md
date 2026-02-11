@@ -1,4 +1,4 @@
-# Bardcraft (TES3MP) — Quick Install
+# TES3MP Bardcraft Port
 
 What this is
 
@@ -8,7 +8,7 @@ What this is
      Basically the server scripts parse the midi files and send lots of playsound console commands to the players...
 
 - Want to try Bardcraft online without setting up a server? You can join my public test server.
-- Join via Discord for instructions and updates: https://discord.gg/TSqQTVexe5
+- Join my discord server [Fetcher Simulator](https://discord.gg/TSqQTVexe5) for instructions.
 
 TODO's:
 
