@@ -1,9 +1,6 @@
 --[[
 Bardcraft Performer
-Manages individual performer state and actions
-
-FIXED VERSION - Implements counter-based note tracking like the original OpenMW Bardcraft
-to prevent missing repeated notes when cutoff mode is enabled.
+Manages performer state and actions
 ]]
 
 local performer = {}

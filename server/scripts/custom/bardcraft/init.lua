@@ -7,7 +7,7 @@ Installation:
 2. Place all tes3mp scripts in that folder
 3. Add to customScripts.lua: require("custom.bardcraft.init")
 4. Download and install the Bardcraft mod from https://github.com/Skooma-Breath/BardcraftMP/releases/download/BardcraftMP/BardcraftMP.zip
-5. Make sure you have the server/data/custom/bardcraft/custom and server/data/custom/bardcraft/preset folders setup with midi files if your following this instead of the readme for whatever reason.
+5. Make sure you have the server/data/custom/bardcraft/custom and server/data/custom/bardcraft/preset folders setup if your following this instead of the readme for whatever reason.
 ]]
 
 local Bardcraft = {}

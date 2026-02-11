@@ -6,11 +6,11 @@ USAGE:
   local logger = require("custom.bardcraft.logger")
 
   -- Log with specific category and level
-  logger.info(logger.CATEGORIES.CHAOS, "Chaos mode is now enabled")
-  logger.trace(logger.CATEGORIES.CHAOS, "Detailed chaos mode check: " .. details)
+  logger.info(logger.CATEGORIES.CONDUCTOR, "things have happened")
+  logger.verbose(logger.CATEGORIES.CONDUCTOR, "Pants were shit: " .. details)
 
   -- Enable/disable categories at runtime
-  logger.enableCategory(logger.CATEGORIES.CHAOS, logger.LEVELS.TRACE)
+  logger.enableCategory(logger.CATEGORIES.CONDUCTOR, logger.LEVELS.VERBOSE)
   logger.disableCategory(logger.CATEGORIES.MIDI)
 
   -- Toggle all logging

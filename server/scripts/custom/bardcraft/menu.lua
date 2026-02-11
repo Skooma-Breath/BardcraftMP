@@ -1,12 +1,6 @@
 --[[
-Bardcraft Menu GUI (FIXED VERSION)
+Bardcraft Menu 
 Provides admin tools for managing songs, reloading MIDIs, and adjusting tempo
-
-FIXES:
-1. Added input sanitization for tempo to prevent client crashes
-2. Changed song list to use ListBox for scrollable display
-3. Added better error handling and logging
-4. Fixed listbox index handling (0-based)
 ]]
 
 local menu = {}
