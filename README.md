@@ -7,7 +7,7 @@ What this is
 - How it works:
      Basically the server scripts parse the midi files and send lots of playsound console commands to the players...
 
-Demo: https://youtu.be/YbxQ0bVf5jA
+Demo: https://youtu.be/Uu_w5FMWgj0
 
 - Want to try Bardcraft online without setting up a server? You can join my public test server.
 - Join my discord server [Fetcher Simulator](https://discord.gg/TSqQTVexe5) for instructions.
