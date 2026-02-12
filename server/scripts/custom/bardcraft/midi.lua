@@ -735,7 +735,7 @@ function midi.LoadMidiFiles()
         local fullPath = fileInfo.fullPath
         local filename = fileInfo.filename
 
-        logger.warn(logger.CATEGORIES.MIDI, "Found candidate MIDI file: " .. tostring(fullPath))
+        logger.verbose(logger.CATEGORIES.MIDI, "Found candidate MIDI file: " .. tostring(fullPath))
 
         -- verify file is readable
         local f, ferr = io.open(fullPath, "rb")
@@ -763,7 +763,7 @@ function midi.LoadMidiFiles()
                     customCount = customCount + 1
                 end
 
-                logger.warn(logger.CATEGORIES.MIDI, string.format("Loaded [%s] '%s' with %d notes",
+                logger.verbose(logger.CATEGORIES.MIDI, string.format("Loaded [%s] '%s' with %d notes",
                     fileInfo.category, song.title, #song.notes))
             else
                 logger.warn(logger.CATEGORIES.MIDI, "Parser returned nil for file: " .. tostring(fullPath))

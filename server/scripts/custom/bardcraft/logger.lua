@@ -64,7 +64,6 @@ logger.config = {
 -- Enable/disable all logging
 logger.enabled = true
 
--- Helper to check if a log should be written
 local function shouldLog(category, level)
     if not logger.enabled then
         return false
@@ -75,8 +74,9 @@ local function shouldLog(category, level)
         return false -- Category disabled
     end
 
-    return level <= categoryLevel
+    return level >= categoryLevel
 end
+
 
 -- Main logging function
 -- @param category: One of logger.CATEGORIES
