@@ -19,7 +19,7 @@ TODO's:
 
 Downloads
 
-- TES3MP release (port): https://github.com/Skooma-Breath/BardcraftMP/releases/download/BardcraftMP/BardcraftMP.zip
+- https://github.com/Skooma-Breath/BardcraftMP/releases/download/BardcraftMP/BardcraftMP.zip
 
 Server install
 
